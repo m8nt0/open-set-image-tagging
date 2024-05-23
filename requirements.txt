@@ -1,0 +1,6 @@
+torch
+transformers
+numpy
+Pillow
+Flask  # for the web app
+jupyter

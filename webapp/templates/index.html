@@ -1,0 +1,19 @@
+<!-- webapp/templates/index.html -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Open-Set Image Tagging and Captioning</title>
+  </head>
+  <body>
+    <h1>Upload an Image</h1>
+    <form action="/tag" method="post" enctype="multipart/form-data">
+      <input type="file" name="file">
+      <button type="submit">Tag Image</button>
+    </form>
+    <form action="/caption" method="post" enctype="multipart/form-data">
+      <input type="file" name="file">
+      <button type="submit">Caption Image</button>
+    </form>
+  </body>
+</html>
