@@ -4,3 +4,6 @@ numpy
 Pillow
 Flask  # for the web app
 jupyter
+flask
+opencv-python
+pandas

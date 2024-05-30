@@ -1,6 +1,6 @@
 # webapp/app.py
 from flask import Flask, request, render_template
-from ram.models import ram_plus, tag2text
+from recognize_anything_copy.ram.models import ram_plus, tag2text
 
 app = Flask(__name__)
 ram_model = ram_plus.load_pretrained('models/ram_plus_swin_large_14m.pth')
